@@ -23,7 +23,7 @@ plot(m$DateTime,m$Global_active_power
 
 
 plot(m$DateTime,m$Voltage
-     ,ylab='Global Active Power (kilowatts)', xlab='datetime', type='l')
+     ,ylab='Voltage', xlab='datetime', type='l')
 
 plot(m$DateTime,m$Sub_metering_1
      ,ylab='Energy Sub metering', xlab='', type='n')
@@ -36,7 +36,7 @@ legend('topright', colnames(m)[7:9] ,
 
 
 plot(m$DateTime,m$Global_reactive_power
-     , xlab='datetime', type='l')
+     , xlab='datetime', ylab = "Global_reactive_power", type='l')
 
 #close the graphical device
 x <-dev.off()
