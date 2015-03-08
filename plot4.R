@@ -19,7 +19,7 @@ par(mfrow = c(2,2))
 
 
 plot(m$DateTime,m$Global_active_power
-     ,ylab='Global Active Power (kilowatts)', xlab='', type='l')
+     ,ylab='Global Active Power', xlab='', type='l')
 
 
 plot(m$DateTime,m$Voltage
